@@ -8,9 +8,9 @@ import {
   useMantineTheme,
 } from "@mantine/core";
 import { useState } from "react";
-import Menu from "../components/Menu";
-import Topbar from "../components/Topbar";
-import VideoCard from "../components/VideoCard";
+import Menu from "../components/Home/Menu";
+import Topbar from "../components/shared/Topbar";
+import VideoCard from "../components/Home/VideoCard";
 const hex = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
 export default function HomePage() {
