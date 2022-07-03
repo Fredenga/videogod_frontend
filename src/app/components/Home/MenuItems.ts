@@ -1,7 +1,7 @@
 import {
   faClock,
   faCompass,
-  faEnvelope,
+  faTags,
   faHistory,
   faHome,
   faWifi,
@@ -22,7 +22,7 @@ export const firstCol = [
     text: "Explore",
   },
   {
-    icon: faEnvelope,
+    icon: faTags,
     text: "Subscriptions",
   },
   {

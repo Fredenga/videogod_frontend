@@ -1,5 +1,6 @@
-import { AppShell, Header } from "@mantine/core";
+import { AppShell, Header, Text } from "@mantine/core";
 import Topbar from "../components/shared/Topbar";
+import Recommendation from "../components/watch/Recommendation";
 
 const WatchPage = () => {
   return (
@@ -18,8 +19,15 @@ const WatchPage = () => {
               : theme.colors.gray[0],
         },
       })}
+      aside={
+        <div className="" style={{ marginTop: "10px" }}>
+          <Recommendation />
+          <Recommendation />
+          <Recommendation />
+        </div>
+      }
     >
-      {/* Your application here */}
+      <Text>Hello world</Text>
     </AppShell>
   );
 };

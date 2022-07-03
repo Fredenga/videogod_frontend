@@ -1,7 +1,6 @@
 import { faDotCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Avatar, Card, Center, Image, Text } from "@mantine/core";
-import React from "react";
 import styled from "styled-components";
 
 const Time = styled.span`
